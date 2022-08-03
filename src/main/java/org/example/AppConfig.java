@@ -24,6 +24,6 @@ public class AppConfig {
     @Bean
     public Student student(){
 
-        return new Student(10001, "Code Source", phone(), address());
+        return new Student(10001, "Source Code", phone(), address());
     }
 }
