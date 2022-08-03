@@ -7,12 +7,7 @@ public class Student{
     private List<Phone> ph;
     private Address add;
 
-    //Constructors
-    public Student(){
-        this.id = 1001;
-        this.name = "Jean Miller";
-    }
-
+    //Constructor
     public Student(int id, String name, List<Phone> ph, Address add) {
         this.id = id;
         this.name = name;
